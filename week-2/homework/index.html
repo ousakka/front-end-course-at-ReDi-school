@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="flex-item">
+        <img class="img-responsive" src="images/carpet.jpg" alt="carpet" />
+      </div>
+      <div class="flex-item">
+        <h2 class="text-gray">Carpet</h2>
+        <h1>Hand knotted Wool & Silk Persian Rug</h1>
+        <p class="text-gray">
+          Hand-knotted marvels echoing the spirit of Tabriz city, expertly woven
+          with premium materials like wool and silk.
+          <br />
+          <br />
+          <span class="text-primary">EUR 150</span>
+          <span class="text-strikethrough">EUR 200</span>
+        </p>
+        <button class="button button-purple" onclick="addToBasket(2, 150)">
+          Add to cart
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

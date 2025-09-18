@@ -1,0 +1,65 @@
+/* Define Simple CSS Variables */
+:root {
+    --purple: rgb(136, 53, 214);
+    /* Make this gray a bit darker to increase contrast for accessibility */
+    --gray: rgb(168, 165, 165);
+    --white: white;
+  }
+  
+  /* Flex Container */
+  .flex-container {
+    display: flex;
+    background-color: var(--white);
+    flex-direction: row;
+  }
+  
+  .flex-item {
+    background-color: var(--white);
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+    /* Optional, just because that way your rug doesn't disappear on small screens */
+    
+  }
+  
+  /* Image Styling */
+  .img-responsive {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Text Styles */
+  .text-gray {
+    color: var(--gray);
+  }
+  
+  .text-strikethrough {
+    text-decoration: line-through;
+  }
+  
+  .text-primary {
+    color: var(--purple);
+    font-weight: bold;
+    font-size: x-large;
+  }
+  
+  .text-white {
+    color: var(--white);
+  }
+  
+  /* Buttons */
+  .button {
+    font-size: large;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    height: 50px;
+  }
+  
+  .button-purple {
+    background-color: var(--purple);
+    color: var(--white);
+  }
+  
